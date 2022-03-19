@@ -322,4 +322,37 @@ header .search .fa-search {
   .banner .image {
     margin-top: 30px;
   }
+  header {
+    padding: 10px 20px;
+    flex-direction: column;
+  }
+  .contactUs {
+    padding: 0px;
+  }
+  .contactUs .title {
+    padding-top: 15px;
+  }
+  .box {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "form"
+      "info"
+      "map";
+  }
+  .map {
+    min-height: 300px;
+    padding: 0;
+  }
+  .formBox .row50 {
+    display: flex;
+    gap: 0;
+    flex-direction: column;
+  }
+  .inputBox {
+    width: 100%;
+  }
+  .contact {
+    padding: 30px;
+  }
 }
