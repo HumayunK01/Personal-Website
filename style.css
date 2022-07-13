@@ -85,67 +85,10 @@ header .search .fa-search {
   padding-right: 10px;
 }
 
-.banner {
-  background: #434978;
-  padding: 200px 100px 100px;
-  min-height: 100vh;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.banner .content {
-  max-width: 700px;
-}
-
-.banner .content h2 {
-  font-size: 5.5em;
-  color: #fff;
-}
-
-.banner .content p {
-  font-size: 3em;
-  color: #fff;
-}
-
-.banner .content a {
-  display: inline-block;
-  background: #fff;
-  color: #434978;
-  padding: 8px 20px;
-  text-decoration: none;
-  font-weight: 600;
-  margin-top: 20px;
-}
-
-.banner .image {
-  filter: invert(1);
-  max-width: 900px;
-  margin-left: 50px;
-}
-
 @media (max-width: 991px) {
   header {
     padding: 10px 20px;
     flex-direction: column;
-  }
-
-  .banner {
-    padding: 10px 20px 50px;
-    flex-direction: column-reverse;
-  }
-
-  .banner .image {
-    margin-left: 0px;
-    max-width: 80%;
-  }
-
-  .banner .content h2 {
-    font-size: 4em;
-  }
-
-  .banner .content p {
-    font-size: 2.5em;
   }
 }
 
